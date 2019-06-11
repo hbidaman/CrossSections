@@ -1,0 +1,242 @@
+#!/bin/bash
+
+../build/exampleB1 Run_0_25.mac
+root -b -l -q 'CrossSection.C(0.25)'
+root -b -l -q 'ElasticCounts.C(0.25)'
+root -b -l -q 'InElasticCounts.C(0.25)'
+mv B1.root ./B1_0_25.root
+
+../build/exampleB1 Run_0_50.mac
+root -b -l -q 'CrossSection.C(0.50)'
+root -b -l -q 'ElasticCounts.C(0.50)'
+root -b -l -q 'InElasticCounts.C(0.50)'
+mv B1.root ./B1_0_50.root
+
+../build/exampleB1 Run_0_75.mac
+root -b -l -q 'CrossSection.C(0.75)'
+root -b -l -q 'ElasticCounts.C(0.75)'
+root -b -l -q 'InElasticCounts.C(0.75)'
+mv B1.root ./B1_0_75.root
+
+../build/exampleB1 Run_1_00.mac
+root -b -l -q 'CrossSection.C(1.0)'
+root -b -l -q 'ElasticCounts.C(1.0)'
+root -b -l -q 'InElasticCounts.C(1.0)'
+mv B1.root ./B1_1_00.root
+
+../build/exampleB1 Run_1_25.mac
+root -b -l -q 'CrossSection.C(1.25)'
+root -b -l -q 'ElasticCounts.C(1.25)'
+root -b -l -q 'InElasticCounts.C(1.25)'
+mv B1.root ./B1_1_25.root
+
+../build/exampleB1 Run_1_50.mac
+root -b -l -q 'CrossSection.C(1.50)'
+root -b -l -q 'ElasticCounts.C(1.50)'
+root -b -l -q 'InElasticCounts.C(1.50)'
+mv B1.root ./B1_1_50.root
+
+../build/exampleB1 Run_1_75.mac
+root -b -l -q 'CrossSection.C(1.75)'
+root -b -l -q 'ElasticCounts.C(1.75)'
+root -b -l -q 'InElasticCounts.C(1.75)'
+mv B1.root ./B1_1_75.root
+
+../build/exampleB1 Run_2_00.mac
+root -b -l -q 'CrossSection.C(2.0)'
+root -b -l -q 'ElasticCounts.C(2.0)'
+root -b -l -q 'InElasticCounts.C(2.0)'
+mv B1.root ./B1_2_00.root
+
+../build/exampleB1 Run_2_25.mac
+root -b -l -q 'CrossSection.C(2.25)'
+root -b -l -q 'ElasticCounts.C(2.25)'
+root -b -l -q 'InElasticCounts.C(2.25)'
+mv B1.root ./B1_2_25.root
+
+../build/exampleB1 Run_2_50.mac
+root -b -l -q 'CrossSection.C(2.50)'
+root -b -l -q 'ElasticCounts.C(2.50)'
+root -b -l -q 'InElasticCounts.C(2.50)'
+mv B1.root ./B1_2_50.root
+
+../build/exampleB1 Run_2_75.mac
+root -b -l -q 'CrossSection.C(2.75)'
+root -b -l -q 'ElasticCounts.C(2.75)'
+root -b -l -q 'InElasticCounts.C(2.75)'
+mv B1.root ./B1_2_75.root
+
+../build/exampleB1 Run_3_00.mac
+root -b -l -q 'CrossSection.C(3.0)'
+root -b -l -q 'ElasticCounts.C(3.0)'
+root -b -l -q 'InElasticCounts.C(3.0)'
+mv B1.root ./B1_3_00.root
+
+../build/exampleB1 Run_3_25.mac
+root -b -l -q 'CrossSection.C(3.25)'
+root -b -l -q 'ElasticCounts.C(3.25)'
+root -b -l -q 'InElasticCounts.C(3.25)'
+mv B1.root ./B1_3_25.root
+
+../build/exampleB1 Run_3_50.mac
+root -b -l -q 'CrossSection.C(3.50)'
+root -b -l -q 'ElasticCounts.C(3.50)'
+root -b -l -q 'InElasticCounts.C(3.50)'
+mv B1.root ./B1_3_50.root
+
+../build/exampleB1 Run_3_75.mac
+root -b -l -q 'CrossSection.C(3.75)'
+root -b -l -q 'ElasticCounts.C(3.75)'
+root -b -l -q 'InElasticCounts.C(3.75)'
+mv B1.root ./B1_3_75.root
+
+../build/exampleB1 Run_4_00.mac
+root -b -l -q 'CrossSection.C(4.0)'
+root -b -l -q 'ElasticCounts.C(4.0)'
+root -b -l -q 'InElasticCounts.C(4.0)'
+mv B1.root ./B1_4_00.root
+
+../build/exampleB1 Run_4_25.mac
+root -b -l -q 'CrossSection.C(4.25)'
+root -b -l -q 'ElasticCounts.C(4.25)'
+root -b -l -q 'InElasticCounts.C(4.25)'
+mv B1.root ./B1_4_25.root
+
+../build/exampleB1 Run_4_50.mac
+root -b -l -q 'CrossSection.C(4.50)'
+root -b -l -q 'ElasticCounts.C(4.50)'
+root -b -l -q 'InElasticCounts.C(4.50)'
+mv B1.root ./B1_4_50.root
+
+../build/exampleB1 Run_4_75.mac
+root -b -l -q 'CrossSection.C(4.75)'
+root -b -l -q 'ElasticCounts.C(4.75)'
+root -b -l -q 'InElasticCounts.C(4.75)'
+mv B1.root ./B1_4_75.root
+
+../build/exampleB1 Run_5_00.mac
+root -b -l -q 'CrossSection.C(5.0)'
+root -b -l -q 'ElasticCounts.C(5.0)'
+root -b -l -q 'InElasticCounts.C(5.0)'
+mv B1.root ./B1_5_00.root
+
+../build/exampleB1 Run_5_25.mac
+root -b -l -q 'CrossSection.C(5.25)'
+root -b -l -q 'ElasticCounts.C(5.25)'
+root -b -l -q 'InElasticCounts.C(5.25)'
+mv B1.root ./B1_5_25.root
+
+../build/exampleB1 Run_5_50.mac
+root -b -l -q 'CrossSection.C(5.50)'
+root -b -l -q 'ElasticCounts.C(5.50)'
+root -b -l -q 'InElasticCounts.C(5.50)'
+mv B1.root ./B1_5_50.root
+
+../build/exampleB1 Run_5_75.mac
+root -b -l -q 'CrossSection.C(5.75)'
+root -b -l -q 'ElasticCounts.C(5.75)'
+root -b -l -q 'InElasticCounts.C(5.75)'
+mv B1.root ./B1_5_75.root
+
+../build/exampleB1 Run_6_00.mac
+root -b -l -q 'CrossSection.C(6.0)'
+root -b -l -q 'ElasticCounts.C(6.0)'
+root -b -l -q 'InElasticCounts.C(6.0)'
+mv B1.root ./B1_6_00.root
+
+../build/exampleB1 Run_6_25.mac
+root -b -l -q 'CrossSection.C(6.25)'
+root -b -l -q 'ElasticCounts.C(6.25)'
+root -b -l -q 'InElasticCounts.C(6.25)'
+mv B1.root ./B1_6_25.root
+
+../build/exampleB1 Run_6_50.mac
+root -b -l -q 'CrossSection.C(6.50)'
+root -b -l -q 'ElasticCounts.C(6.50)'
+root -b -l -q 'InElasticCounts.C(6.50)'
+mv B1.root ./B1_6_50.root
+
+../build/exampleB1 Run_6_75.mac
+root -b -l -q 'CrossSection.C(6.75)'
+root -b -l -q 'ElasticCounts.C(6.75)'
+root -b -l -q 'InElasticCounts.C(6.75)'
+mv B1.root ./B1_6_75.root
+
+../build/exampleB1 Run_7_00.mac
+root -b -l -q 'CrossSection.C(7.0)'
+root -b -l -q 'ElasticCounts.C(7.0)'
+root -b -l -q 'InElasticCounts.C(7.0)'
+mv B1.root ./B1_7_00.root
+
+../build/exampleB1 Run_7_25.mac
+root -b -l -q 'CrossSection.C(7.25)'
+root -b -l -q 'ElasticCounts.C(7.25)'
+root -b -l -q 'InElasticCounts.C(7.25)'
+mv B1.root ./B1_7_25.root
+
+../build/exampleB1 Run_7_50.mac
+root -b -l -q 'CrossSection.C(7.50)'
+root -b -l -q 'ElasticCounts.C(7.50)'
+root -b -l -q 'InElasticCounts.C(7.50)'
+mv B1.root ./B1_7_50.root
+
+../build/exampleB1 Run_7_75.mac
+root -b -l -q 'CrossSection.C(7.75)'
+root -b -l -q 'ElasticCounts.C(7.75)'
+root -b -l -q 'InElasticCounts.C(7.75)'
+mv B1.root ./B1_7_75.root
+
+../build/exampleB1 Run_8_00.mac
+root -b -l -q 'CrossSection.C(8.0)'
+root -b -l -q 'ElasticCounts.C(8.0)'
+root -b -l -q 'InElasticCounts.C(8.0)'
+mv B1.root ./B1_8_00.root
+
+../build/exampleB1 Run_8_25.mac
+root -b -l -q 'CrossSection.C(8.25)'
+root -b -l -q 'ElasticCounts.C(8.25)'
+root -b -l -q 'InElasticCounts.C(8.25)'
+mv B1.root ./B1_8_25.root
+
+../build/exampleB1 Run_8_50.mac
+root -b -l -q 'CrossSection.C(8.50)'
+root -b -l -q 'ElasticCounts.C(8.50)'
+root -b -l -q 'InElasticCounts.C(8.50)'
+mv B1.root ./B1_8_50.root
+
+../build/exampleB1 Run_8_75.mac
+root -b -l -q 'CrossSection.C(8.75)'
+root -b -l -q 'ElasticCounts.C(8.75)'
+root -b -l -q 'InElasticCounts.C(8.75)'
+mv B1.root ./B1_8_75.root
+
+../build/exampleB1 Run_9_00.mac
+root -b -l -q 'CrossSection.C(9.0)'
+root -b -l -q 'ElasticCounts.C(9.0)'
+root -b -l -q 'InElasticCounts.C(9.0)'
+mv B1.root ./B1_9_00.root
+
+../build/exampleB1 Run_9_25.mac
+root -b -l -q 'CrossSection.C(9.25)'
+root -b -l -q 'ElasticCounts.C(9.25)'
+root -b -l -q 'InElasticCounts.C(9.25)'
+mv B1.root ./B1_9_25.root
+
+../build/exampleB1 Run_9_50.mac
+root -b -l -q 'CrossSection.C(9.50)'
+root -b -l -q 'ElasticCounts.C(9.50)'
+root -b -l -q 'InElasticCounts.C(9.50)'
+mv B1.root ./B1_9_50.root
+
+../build/exampleB1 Run_9_75.mac
+root -b -l -q 'CrossSection.C(9.75)'
+root -b -l -q 'ElasticCounts.C(9.75)'
+root -b -l -q 'InElasticCounts.C(9.75)'
+mv B1.root ./B1_9_75.root
+
+../build/exampleB1 Run_10_00.mac
+root -b -l -q 'CrossSection.C(10.0)'
+root -b -l -q 'ElasticCounts.C(10.0)'
+root -b -l -q 'InElasticCounts.C(10.0)'
+mv B1.root ./B1_10_00.root
+

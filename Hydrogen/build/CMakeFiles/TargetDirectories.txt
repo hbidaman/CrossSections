@@ -1,0 +1,2 @@
+/helioshome/hbidaman/Geant/Hydrogen/build/CMakeFiles/B1.dir
+/helioshome/hbidaman/Geant/Hydrogen/build/CMakeFiles/exampleB1.dir

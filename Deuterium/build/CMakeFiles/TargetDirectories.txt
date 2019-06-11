@@ -1,0 +1,2 @@
+/helioshome/hbidaman/Geant/Deuterium/build/CMakeFiles/B1.dir
+/helioshome/hbidaman/Geant/Deuterium/build/CMakeFiles/exampleB1.dir
