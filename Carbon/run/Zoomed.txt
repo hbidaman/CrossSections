@@ -1,0 +1,80 @@
+#!/bin/bash
+
+
+../build/exampleB1 Run_1_75.mac
+root -b -l -q 'CrossSectionZoomed.C(1.75)'
+root -b -l -q 'ElasticCountsZoomed.C(1.75)'
+root -b -l -q 'InElasticCountsZoomed.C(1.75)'
+mv B1.root ./B1_1_75.root
+
+../build/exampleB1 Run_2_00.mac
+root -b -l -q 'CrossSectionZoomed.C(2.0)'
+root -b -l -q 'ElasticCountsZoomed.C(2.0)'
+root -b -l -q 'InElasticCountsZoomed.C(2.0)'
+mv B1.root ./B1_2_00.root
+
+../build/exampleB1 Run_2_05.mac
+root -b -l -q 'CrossSectionZoomed.C(2.05)'
+root -b -l -q 'ElasticCountsZoomed.C(2.05)'
+root -b -l -q 'InElasticCountsZoomed.C(2.05)'
+mv B1.root ./B1_2_05.root
+
+../build/exampleB1 Run_2_06.mac
+root -b -l -q 'CrossSectionZoomed.C(2.06)'
+root -b -l -q 'ElasticCountsZoomed.C(2.06)'
+root -b -l -q 'InElasticCountsZoomed.C(2.06)'
+mv B1.root ./B1_2_06.root
+
+../build/exampleB1 Run_2_065.mac
+root -b -l -q 'CrossSectionZoomed.C(2.065)'
+root -b -l -q 'ElasticCountsZoomed.C(2.065)'
+root -b -l -q 'InElasticCountsZoomed.C(2.065)'
+mv B1.root ./B1_2_065.root
+
+../build/exampleB1 Run_2_07.mac
+root -b -l -q 'CrossSectionZoomed.C(2.07)'
+root -b -l -q 'ElasticCountsZoomed.C(2.07)'
+root -b -l -q 'InElasticCountsZoomed.C(2.07)'
+mv B1.root ./B1_2_07.root
+
+../build/exampleB1 Run_2_075.mac
+root -b -l -q 'CrossSectionZoomed.C(2.075)'
+root -b -l -q 'ElasticCountsZoomed.C(2.075)'
+root -b -l -q 'InElasticCountsZoomed.C(2.075)'
+mv B1.root ./B1_2_075.root
+../build/exampleB1 Run_2_078.mac
+root -b -l -q 'CrossSectionZoomed.C(2.078)'
+root -b -l -q 'ElasticCountsZoomed.C(2.078)'
+root -b -l -q 'InElasticCountsZoomed.C(2.078)'
+mv B1.root ./B1_2_078.root
+
+../build/exampleB1 Run_2_08.mac
+root -b -l -q 'CrossSectionZoomed.C(2.08)'
+root -b -l -q 'ElasticCountsZoomed.C(2.08)'
+root -b -l -q 'InElasticCountsZoomed.C(2.08)'
+mv B1.root ./B1_2_08.root
+
+../build/exampleB1 Run_2_09.mac
+root -b -l -q 'CrossSectionZoomed.C(2.09)'
+root -b -l -q 'ElasticCountsZoomed.C(2.09)'
+root -b -l -q 'InElasticCountsZoomed.C(2.09)'
+mv B1.root ./B1_2_09.root
+
+../build/exampleB1 Run_2_10.mac
+root -b -l -q 'CrossSectionZoomed.C(2.10)'
+root -b -l -q 'ElasticCountsZoomed.C(2.10)'
+root -b -l -q 'InElasticCountsZoomed.C(2.10)'
+mv B1.root ./B1_2_10.root
+
+../build/exampleB1 Run_2_15.mac
+root -b -l -q 'CrossSectionZoomed.C(2.15)'
+root -b -l -q 'ElasticCountsZoomed.C(2.15)'
+root -b -l -q 'InElasticCountsZoomed.C(2.15)'
+mv B1.root ./B1_2_15.root
+
+../build/exampleB1 Run_2_20.mac
+root -b -l -q 'CrossSectionZoomed.C(2.20)'
+root -b -l -q 'ElasticCountsZoomed.C(2.20)'
+root -b -l -q 'InElasticCountsZoomed.C(2.20)'
+mv B1.root ./B1_2_20.root
+
